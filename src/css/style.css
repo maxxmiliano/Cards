@@ -5,6 +5,7 @@
     font-size: 'Segoe UI',tahoma,Geneva,verdana,sans-serif;
 }
 
+ 
 
 body {
    
@@ -13,11 +14,29 @@ body {
     align-items: center;
     margin: 60px;
     min-height: 100vh;
-    background: url(/src/image/wp2578195-4k-wallpaper.jpg);
     overflow-y: hidden;
+    overflow-x: hidden;
     
 }
+ body img{
+    position: absolute;
+    
+    
+   
+}
+.container{
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
 .container h4 {
+    
     color: rgb(7, 7, 7);
     position: absolute;
     top: -90px;
@@ -30,16 +49,7 @@ body {
     font-size: 33px;
 }
 
-.container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    z-index: 1;
 
-}
 .container .cards{
     position: relative;
     width: 280px;
