@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Segoe UI',tahoma,Geneva,verdana,sans-serif;
+}
+
+
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    min-height: 100vh;
+    background: url(image/img0.jfif);
+    overflow-y: hidden;
+    
+}
+.container h4 {
+    color: rgb(7, 7, 7);
+    position: absolute;
+    top: -90px;
+    font-size: 35px;
+}
+.container h1{
+    color: rgb(7, 7, 7);
+    position: absolute;
+    top: -50px;
+    font-size: 33px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
+.container .cards{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(137, 106, 199);
+    border-radius: 20px;
+    background: rgba(54, 128, 220, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid rgba(242, 12, 188, 0.5);
+    border-left: 10px solid rgba(42, 80,185, 0.5);
+
+}
+.container .cards .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 0.9s;
+
+}
+
+.container .cards:hover .content{
+    transform: translateY(1px);
+    opacity: 900;
+}
+.container .cards .content h2{
+    position: absolute;
+    top: -60px;
+    right: 30px;
+    font-size: 60px;
+    color: black;
+    pointer-events: none;
+    font-style: italic ,normal ,oblique;
+
+
+}
+.container .cards .content h3{
+        color: rgb(6, 11, 161);
+        font: italic;
+        font-size: 30px;
+}
+.container .cards .content a{
+    color: rgb(247, 5, 118);
+}
+.container .cards .content i{
+    color: rgb(247, 5, 214);
+    font-size: 30px;
+    
+}
+
+ button  {
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    font-size: 18px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px rgb(137, 106, 199);
+    top: 50px;
+    right: 0;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgb(247, 165, 13)
+    
+    
+}
