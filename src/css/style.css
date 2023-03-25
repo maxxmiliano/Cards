@@ -21,8 +21,6 @@ body {
  body img{
     position: absolute;
     
-    
-   
 }
 .container{
     
@@ -55,14 +53,14 @@ body {
     width: 280px;
     height: 400px;
     margin: 20px;
-    box-shadow: 5px 5px 5px 5px rgb(137, 106, 199);
+    box-shadow: 5px 5px 5px 5px rgba(244, 159, 3, 0.42);
     border-radius: 20px;
-    background: rgba(54, 128, 220, 0.5);
+    background: rgba(5, 87, 169, 0.5);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 10px solid rgba(242, 12, 188, 0.5);
+    border-top: 8px solid #084687;
     border-left: 10px solid rgba(42, 80,185, 0.5);
 
 }
@@ -106,19 +104,20 @@ body {
 
  button  {
     cursor: pointer;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border: 1px solid #eee;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
-    box-shadow: 5px 5px 5px 5px rgb(137, 106, 199);
+    box-shadow: 2px 2px 2px 2px rgba(244, 178, 56, 0.995);
     top: 50px;
     right: 0;
     display: inline-block;
     left: 50%;
     transform: translate(-50%);
-    background: rgb(247, 165, 13)
+    background: rgb(10, 59, 156)
+
     
     
 }
